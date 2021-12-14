@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	
+		<header class="fix">
+			
+			<h1>
+			Contact Us
+			</h1>
+		
+		</header>
+		
+		<nav class="fix">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="product.html">Our Products</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	
+	<body>
+		<h2 class="con">Fill out the information below so we can get in contact with you</h2>
+		<div class="container">
+			<form action="thanks.html" method="get" id="myForm">
+				<p>
+					<label for="fname">
+						First Name:
+					</label>
+					<input type="text" name="fname" id="fname" required placeholder="John">
+				</p>
+				
+				<p>
+					<label for="lname">
+						Last Name:
+					</label>
+					<input type="text" name="lname" id="lname" required placeholder="Doe">
+				</p>
+				
+				<p>
+					<label for="address">
+						Street Address:
+					</label>
+					<input type="text" name="address" id="address" required placeholder="abc 123 Ave.">
+				</p>
+				
+				<p>
+					<label for="city">
+						City Name:
+					</label>
+					<input type="text" name="city" id="city" required placeholder="Boston">
+				</p>
+				
+				<p>
+					<label for="state">
+						State:
+					</label>
+					<select name="state" id="state" required>
+						<option value="AL">Alabama</option>
+						<option value="AK">Alaska</option>
+						<option value="AZ">Arizona</option>
+						<option value="AR">Arkansas</option>
+						<option value="CA">California</option>
+						<option value="CO">Colorado</option>
+						<option value="CT">Connecticut</option>
+						<option value="DE">Delaware</option>
+						<option value="DC">District Of Columbia</option>
+						<option value="FL">Florida</option>
+						<option value="GA">Georgia</option>
+						<option value="HI">Hawaii</option>
+						<option value="ID">Idaho</option>
+						<option value="IL">Illinois</option>
+						<option value="IN">Indiana</option>
+						<option value="IA">Iowa</option>
+						<option value="KS">Kansas</option>
+						<option value="KY">Kentucky</option>
+						<option value="LA">Louisiana</option>
+						<option value="ME">Maine</option>
+						<option value="MD">Maryland</option>
+						<option value="MA">Massachusetts</option>
+						<option value="MI">Michigan</option>
+						<option value="MN">Minnesota</option>
+						<option value="MS">Mississippi</option>
+						<option value="MO">Missouri</option>
+						<option value="MT">Montana</option>
+						<option value="NE">Nebraska</option>
+						<option value="NV">Nevada</option>
+						<option value="NH">New Hampshire</option>
+						<option value="NJ">New Jersey</option>
+						<option value="NM">New Mexico</option>
+						<option value="NY">New York</option>
+						<option value="NC">North Carolina</option>
+						<option value="ND">North Dakota</option>
+						<option value="OH">Ohio</option>
+						<option value="OK">Oklahoma</option>
+						<option value="OR">Oregon</option>
+						<option value="PA">Pennsylvania</option>
+						<option value="RI">Rhode Island</option>
+						<option value="SC">South Carolina</option>
+						<option value="SD">South Dakota</option>
+						<option value="TN">Tennessee</option>
+						<option value="TX">Texas</option>
+						<option value="UT">Utah</option>
+						<option value="VT">Vermont</option>
+						<option value="VA">Virginia</option>
+						<option value="WA">Washington</option>
+						<option value="WV">West Virginia</option>
+						<option value="WI">Wisconsin</option>
+						<option value="WY">Wyoming</option>
+					</select>	
+				</p>
+				<p>
+					<label for="zip">
+						Zip Code:
+					</label>
+					<input type="number" name="zip" id="zip" min="1" required>
+				</p>
+				
+				<p>
+					<label for="email">
+						Email:
+					</label>
+					<input type="email" name="email" id="email" required placeholder="test@abc.com">
+				</p>
+				
+				<p>
+					<label for="tele">
+						Telephone Number:
+					</label>
+					<input type="text" name="tele" id="tele" min="1" required placeholder="(123)-456-7890">
+				</p>
+				
+				<p class="checkboxes">
+					What is your question or comment regarding:
+					<label for="radio-1">
+						Product:
+					</label>
+					<input type="radio" name="radios" id="radio-1" value="Product">
+					<label for="radio-2">
+						Pricing:
+					</label>
+					<input type="radio" name="radios" id="radio-2" value="Pricing">
+					<label for="radio-3">
+						Support:
+					</label>
+					<input type="radio" name="radios" id="radio-3" value="Support">
+					<label for="radio-4">
+						Other:
+					</label>
+					<input type="radio" name="radios" id="radio-4" value="Other">
+				</p>
+				
+				<p>
+					<label for="questions">
+						If Other:
+					</label>
+					<textarea id="questions"></textarea>
+				</p>
+				
+				<h3>
+				<input type="submit" value="submit">
+				</h3>
+			</form>
+		</div>
+		
+		<footer>
+			&copy; Big Bussness inc. inc. 2021 417-BIG-BUSS
+		</footer>
+
+	</body>
+</html>
